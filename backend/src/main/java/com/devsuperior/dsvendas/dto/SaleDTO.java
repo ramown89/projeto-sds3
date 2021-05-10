@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 import com.devsuperior.dsvendas.entities.Sale;
-import com.devsuperior.dsvendas.entities.Seller;
 
 public class SaleDTO implements Serializable{
 
@@ -85,9 +84,5 @@ public class SaleDTO implements Serializable{
 
 	public void setSeller(SellerDTO seller) {
 		this.seller = seller;
-	}
-
-	public static long getSerialversionuid() {
-		return serialVersionUID;
 	}
 }
